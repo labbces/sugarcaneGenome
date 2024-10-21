@@ -7,75 +7,98 @@ suppressPackageStartupMessages(library(plotly))
 library(gridExtra)
 library(viridis)
 
-chrgroups=read.table("gro")
+setwd("/data/diriano/sugarcaneGenome/")
+chrgroups=read.table("groups.txt",header = FALSE)
+colnames(chrgroups)<-c('chr','sp','seqid')
+
 opt=list()
-#opt$input_filename="d:/Sugarcane/dotplots/of_vs_sp.paf"
-opt$input_filename="d:/Sugarcane/dotplots/sspo_ap85441_vs_self.paf"
-#opt$input_filename="d:/Sugarcane/dotplots/HFHC.p_utgxCrA04_sp.paf"
-#opt$input_filename="d:/Sugarcane/dotplots/sp803280_vs_sp.paf"
-opt$ref='of'
 opt$keep_ref=10
-opt$min_query_aln=500000
-opt$min_align=100000
+opt$min_query_aln=50000
+opt$min_align=10000
 opt$on_target=FALSE
 opt$similarity=FALSE
 opt$h_lines=FALSE
-# read in alignments
-alignments = read.table(opt$input_filename, stringsAsFactors = F, fill = T)
+
+for (chr in unique(chrgroups$chr)){
+  for (sp in unique(chrgroups[which(chrgroups$chr == chr), 'sp'])){
+    nseqs=nrow(chrgroups[which(chrgroups$chr==chr & chrgroups$sp == sp),])
+    print(paste(chr,sp,nseqs,sep=" "))
+  }
+  
+}
+
+for (sp in unique(chrgroups$sp)){
+  opt$input_filename=paste('paffiles/',sp,'_vs_self.paf',sep='')
+  alignments = read.table(opt$input_filename, stringsAsFactors = F, fill = T)
+  colnames(alignments)[1:12] = c("queryID","queryLen","queryStart","queryEnd","strand","refID","refLen","refStart","refEnd","numResidueMatches","lenAln","mapQ")
+  alignments$queryID <- toupper(alignments$queryID)
+  alignments$refID <- toupper(alignments$refID)
+  for (chr in unique(chrgroups[which(chrgroups$sp == sp),'chr'])){
+    id=chrgroups[which(chrgroups$chr == chr & chrgroups$sp == sp),'seqid'][1]
+    alignmentsw<-alignments[which(alignments$queryID == id),]
+    head(alignmentsw)
+    # Fixes for PAF
+    # Some measure of similarity - need to check on this
+    alignmentsw$percentID = alignmentsw$numResidueMatches / alignmentsw$lenAln
+    queryStartTemp = alignmentsw$queryStart
+    # Flip starts, ends for negative strand alignments
+    alignmentsw$queryStart[which(alignmentsw$strand == "-")] = alignmentsw$queryEnd[which(alignmentsw$strand == "-")]
+    alignmentsw$queryEnd[which(alignmentsw$strand == "-")] = queryStartTemp[which(alignmentsw$strand == "-")]
+    
+    rm(queryStartTemp)
+    cat(paste0("\nSpecies:",sp,"\n"))
+    cat(paste0("Chromossome:",chr,"\n"))
+    cat(paste0("QueryID:",id,"\n"))
+    cat(paste0("paffile:",opt$input_filename,"\n"))
+    cat(paste0("\nNumber of alignments: ", nrow(alignmentsw),"\n"))
+    cat(paste0("Number of query sequences: ", length(unique(alignmentsw$queryID)),"\n"))
+    cat(paste0("Number of Reference sequences: ", length(unique(alignmentsw$refID)),"\n"))
+    
+    # sort by ref chromosome sizes, keep top X chromosomes OR keep specified IDs
+    if(is.null(opt$refIDs)){
+      chromMax = tapply(alignmentsw$refEnd, alignmentsw$refID, max)
+      if(is.null(opt$keep_ref)){
+        opt$keep_ref = length(chromMax)
+      }
+      refIDsToKeepOrdered = names(sort(chromMax, decreasing = T)[1:opt$keep_ref])
+      alignmentsw = alignmentsw[which(alignmentsw$refID %in% refIDsToKeepOrdered),]
+      
+    } else {
+      refIDsToKeepOrdered = unlist(strsplit(opt$refIDs, ","))
+      alignmentsw = alignmentsw[which(alignmentsw$refID %in% refIDsToKeepOrdered),]
+    }
+    
+    # filter queries by alignment length, for now include overlapping intervals
+    queryLenAgg = tapply(alignmentsw$lenAln, alignmentsw$queryID, sum)
+    alignmentsw = alignmentsw[which(alignmentsw$queryID %in% names(queryLenAgg)[which(queryLenAgg > opt$min_query_aln)]),]
+    
+    # filter alignment by length
+    alignmentsw = alignmentsw[which(alignmentsw$lenAln > opt$min_align),]
+    
+    # re-filter queries by alignment length, for now include overlapping intervals
+    queryLenAgg = tapply(alignmentsw$lenAln, alignmentsw$queryID, sum)
+    alignmentsw = alignmentsw[which(alignmentsw$queryID %in% names(queryLenAgg)[which(queryLenAgg > opt$min_query_aln)]),]
+    
+    cat(paste0("\nAfter filtering... Number of alignments: ", nrow(alignmentsw),"\n"))
+    cat(paste0("After filtering... Number of query sequences: ", length(unique(alignmentsw$queryID)),"\n\n"))
+    cat(paste0("Number of Reference sequences: ", length(unique(alignmentsw$refID)),"\n"))
+    summary(alignmentsw$queryLen)
+    
+ }
+}
 
 # set column names
 # PAF IS ZERO-BASED - CHECK HOW CODE WORKS
-colnames(alignments)[1:12] = c("queryID","queryLen","queryStart","queryEnd","strand","refID","refLen","refStart","refEnd","numResidueMatches","lenAln","mapQ")
 
 
-alignments<-alignments[which(alignments$queryID == 'SSPO_AP85441_CM010683.1'),]
 
-head(alignments)
+
+
+
 #if ref vs ref
 #alignments<-alignments[which(alignments$queryID == 'CM039582.1'),]
-# Fixes for PAF
-# Some measure of similarity - need to check on this
-alignments$percentID = alignments$numResidueMatches / alignments$lenAln
-queryStartTemp = alignments$queryStart
-# Flip starts, ends for negative strand alignments
-alignments$queryStart[which(alignments$strand == "-")] = alignments$queryEnd[which(alignments$strand == "-")]
-alignments$queryEnd[which(alignments$strand == "-")] = queryStartTemp[which(alignments$strand == "-")]
 
-rm(queryStartTemp)
 
-cat(paste0("\nNumber of alignments: ", nrow(alignments),"\n"))
-cat(paste0("Number of query sequences: ", length(unique(alignments$queryID)),"\n"))
-cat(paste0("Number of Reference sequences: ", length(unique(alignments$refID)),"\n"))
-
-# sort by ref chromosome sizes, keep top X chromosomes OR keep specified IDs
-if(is.null(opt$refIDs)){
-  chromMax = tapply(alignments$refEnd, alignments$refID, max)
-  if(is.null(opt$keep_ref)){
-    opt$keep_ref = length(chromMax)
-  }
-  refIDsToKeepOrdered = names(sort(chromMax, decreasing = T)[1:opt$keep_ref])
-  alignments = alignments[which(alignments$refID %in% refIDsToKeepOrdered),]
-  
-} else {
-  refIDsToKeepOrdered = unlist(strsplit(opt$refIDs, ","))
-  alignments = alignments[which(alignments$refID %in% refIDsToKeepOrdered),]
-}
-
-# filter queries by alignment length, for now include overlapping intervals
-queryLenAgg = tapply(alignments$lenAln, alignments$queryID, sum)
-alignments = alignments[which(alignments$queryID %in% names(queryLenAgg)[which(queryLenAgg > opt$min_query_aln)]),]
-
-# filter alignment by length
-alignments = alignments[which(alignments$lenAln > opt$min_align),]
-
-# re-filter queries by alignment length, for now include overlapping intervals
-queryLenAgg = tapply(alignments$lenAln, alignments$queryID, sum)
-alignments = alignments[which(alignments$queryID %in% names(queryLenAgg)[which(queryLenAgg > opt$min_query_aln)]),]
-
-cat(paste0("\nAfter filtering... Number of alignments: ", nrow(alignments),"\n"))
-cat(paste0("After filtering... Number of query sequences: ", length(unique(alignments$queryID)),"\n\n"))
-cat(paste0("Number of Reference sequences: ", length(unique(alignments$refID)),"\n"))
-summary(alignments$queryLen)
 head(alignments)
 # sort df on ref
 alignments$refID = factor(alignments$refID, levels = refIDsToKeepOrdered) # set order of refID

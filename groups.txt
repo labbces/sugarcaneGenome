@@ -1,154 +1,159 @@
-1	soff_lappurple_cm036152
-1	soff_lappurple_cm036154
-1	soff_lappurple_cm036153
-1	soff_lappurple_cm036157
-1	soff_lappurple_cm036155
-1	soff_lappurple_cm036159
-1	soff_lappurple_cm036156
-1	soff_lappurple_cm036158
-1	sspo_npx_cm039580
-1	sspo_ap85441_cm010684
-1	sspo_ap85441_cm010683
-1	sspo_npx_cm039581
-1	sspo_ap85441_cm010686
-1	sspo_npx_cm039579
-1	sspo_npx_cm039582
-1	sspo_ap85441_cm010685
-2	soff_lappurple_cm036160
-2	soff_lappurple_cm036162
-2	soff_lappurple_cm036161
-2	soff_lappurple_cm036163
-2	soff_lappurple_cm036164
-2	soff_lappurple_cm036165
-2	soff_lappurple_cm036166
-2	sspo_npx_cm039585
-2	sspo_npx_cm039583
-2	sspo_npx_cm039586
-2	sspo_npx_cm039584
-2	soff_lappurple_cm036167
-2	sspo_ap85441_cm010688
-2	sspo_ap85441_cm010689
-2	sspo_ap85441_cm010687
-2	sspo_ap85441_cm010690
-3	soff_lappurple_cm036168
-3	soff_lappurple_cm036170
-3	soff_lappurple_cm036172
-3	soff_lappurple_cm036169
-3	soff_lappurple_cm036173
-3	soff_lappurple_cm036171
-3	soff_lappurple_cm036174
-3	soff_lappurple_cm036175
-3	sspo_ap85441_cm010692
-3	sspo_npx_cm039587
-3	sspo_npx_cm039589
-3	sspo_ap85441_cm010693
-3	sspo_npx_cm039590
-3	sspo_ap85441_cm010691
-3	sspo_npx_cm039588
-3	sspo_ap85441_cm010694
-4	soff_lappurple_cm036176
-4	soff_lappurple_cm036180
-4	soff_lappurple_cm036178
-4	soff_lappurple_cm036177
-4	soff_lappurple_cm036182
-4	soff_lappurple_cm036179
-4	soff_lappurple_cm036183
-4	soff_lappurple_cm036181
-4	sspo_npx_cm039591
-4	sspo_ap85441_cm010695
-4	sspo_ap85441_cm010698
-4	sspo_ap85441_cm010697
-4	sspo_ap85441_cm010696
-4	sspo_npx_cm039592
-4	sspo_npx_cm039594
-4	sspo_npx_cm039593
-5	sspo_npx_cm039596
-5	sspo_npx_cm039597
-5	sspo_npx_cm039598
-5	sspo_npx_cm039595
-5	soff_lappurple_cm036185
-5	soff_lappurple_cm036187
-5	soff_lappurple_cm036188
-5	soff_lappurple_cm036186
-5	soff_lappurple_cm036189
-5	soff_lappurple_cm036184
-5	sspo_ap85441_cm010700
-5	sspo_ap85441_cm010701
-5	sspo_ap85441_cm010699
-6	sspo_ap85441_cm010701
-6	sspo_ap85441_cm010699
-6	sspo_ap85441_cm010702
-6	sspo_ap85441_cm010700
-6	sspo_npx_cm039601
-6	sspo_npx_cm039602
-6	sspo_npx_cm039600
-6	sspo_npx_cm039599
-6	soff_lappurple_cm036194
-6	soff_lappurple_cm036193
-6	soff_lappurple_cm036192
-6	soff_lappurple_cm036195
-6	sspo_npx_cm039595
-6	soff_lappurple_cm036196
-6	sspo_npx_cm039597
-6	sspo_npx_cm039596
-6	sspo_npx_cm039598
-7	soff_lappurple_cm036200
-7	soff_lappurple_cm036201
-7	soff_lappurple_cm036203
-7	soff_lappurple_cm036202
-7	soff_lappurple_cm036204
-7	soff_lappurple_cm036206
-7	soff_lappurple_cm036207
-7	soff_lappurple_cm036205
-7	sspo_npx_cm039603
-7	sspo_npx_cm039604
-7	sspo_npx_cm039605
-7	sspo_npx_cm039606
-7	sspo_ap85441_cm010703
-7	sspo_ap85441_cm010704
-7	sspo_ap85441_cm010705
-7	sspo_ap85441_cm010706
-8	soff_lappurple_cm036208
-8	soff_lappurple_cm036211
-8	soff_lappurple_cm036212
-8	soff_lappurple_cm036213
-8	soff_lappurple_cm036209
-8	soff_lappurple_cm036215
-8	soff_lappurple_cm036214
-8	soff_lappurple_cm036210
-8	sspo_npx_cm039607
-8	sspo_npx_cm039608
-8	sspo_npx_cm039609
-8	sspo_npx_cm039610
-9	soff_lappurple_cm036216
-9	soff_lappurple_cm036219
-9	soff_lappurple_cm036217
-9	soff_lappurple_cm036218
-9	soff_lappurple_cm036220
-9	soff_lappurple_cm036221
-9	soff_lappurple_cm036223
-9	soff_lappurple_cm036222
-9	sspo_npx_cm039614
-9	sspo_npx_cm039613
-9	sspo_npx_cm039611
-9	sspo_npx_cm039612
-9	sspo_ap85441_cm010707
-9	sspo_ap85441_cm010709
-9	sspo_ap85441_cm010708
-9	sspo_ap85441_cm010710
-10	soff_lappurple_cm036224
-10	soff_lappurple_cm036226
-10	soff_lappurple_cm036225
-10	soff_lappurple_cm036228
-10	soff_lappurple_cm036229
-10	soff_lappurple_cm036227
-10	soff_lappurple_cm036231
-10	soff_lappurple_cm036230
-10	sspo_ap85441_cm010713
-10	sspo_ap85441_cm010711
-10	sspo_npx_cm039616
-10	sspo_npx_cm039618
-10	sspo_ap85441_cm010714
-10	sspo_ap85441_cm010712
-10	sspo_npx_cm039615
-10	sspo_npx_cm039617
+1	sspo_ap85441	SSPO_AP85441_CM010686.1
+1	soff_lappurple	SOFF_LAPPURPLE_CM036157.1
+1	soff_lappurple	SOFF_LAPPURPLE_CM036159.1
+1	sspo_npx	SSPO_NPX_CM039581.1
+1	soff_lappurple	SOFF_LAPPURPLE_CM036152.1
+1	sspo_npx	SSPO_NPX_CM039582.1
+1	sspo_ap85441	SSPO_AP85441_CM010683.1
+1	soff_lappurple	SOFF_LAPPURPLE_CM036155.1
+1	sspo_ap85441	SSPO_AP85441_CM010684.1
+1	soff_lappurple	SOFF_LAPPURPLE_CM036154.1
+1	soff_lappurple	SOFF_LAPPURPLE_CM036153.1
+1	sspo_npx	SSPO_NPX_CM039580.1
+1	sspo_npx	SSPO_NPX_CM039579.1
+1	soff_lappurple	SOFF_LAPPURPLE_CM036156.1
+1	soff_lappurple	SOFF_LAPPURPLE_CM036158.1
+1	sspo_ap85441	SSPO_AP85441_CM010685.1
+2	sspo_npx	SSPO_NPX_CM039585.1
+2	soff_lappurple	SOFF_LAPPURPLE_CM036166.1
+2	sspo_npx	SSPO_NPX_CM039586.1
+2	sspo_ap85441	SSPO_AP85441_CM010687.1
+2	soff_lappurple	SOFF_LAPPURPLE_CM036163.1
+2	soff_lappurple	SOFF_LAPPURPLE_CM036162.1
+2	sspo_ap85441	SSPO_AP85441_CM010690.1
+2	soff_lappurple	SOFF_LAPPURPLE_CM036167.1
+2	soff_lappurple	SOFF_LAPPURPLE_CM036165.1
+2	sspo_ap85441	SSPO_AP85441_CM010689.1
+2	soff_lappurple	SOFF_LAPPURPLE_CM036160.1
+2	soff_lappurple	SOFF_LAPPURPLE_CM036164.1
+2	sspo_npx	SSPO_NPX_CM039584.1
+2	sspo_npx	SSPO_NPX_CM039583.1
+2	sspo_ap85441	SSPO_AP85441_CM010688.1
+2	soff_lappurple	SOFF_LAPPURPLE_CM036161.1
+3	soff_lappurple	SOFF_LAPPURPLE_CM036170.1
+3	sspo_npx	SSPO_NPX_CM039587.1
+3	sspo_ap85441	SSPO_AP85441_CM010691.1
+3	sspo_npx	SSPO_NPX_CM039589.1
+3	soff_lappurple	SOFF_LAPPURPLE_CM036173.1
+3	soff_lappurple	SOFF_LAPPURPLE_CM036172.1
+3	soff_lappurple	SOFF_LAPPURPLE_CM036169.1
+3	soff_lappurple	SOFF_LAPPURPLE_CM036174.1
+3	sspo_npx	SSPO_NPX_CM039588.1
+3	sspo_ap85441	SSPO_AP85441_CM010693.1
+3	soff_lappurple	SOFF_LAPPURPLE_CM036171.1
+3	sspo_npx	SSPO_NPX_CM039590.1
+3	sspo_ap85441	SSPO_AP85441_CM010694.1
+3	soff_lappurple	SOFF_LAPPURPLE_CM036168.1
+3	sspo_ap85441	SSPO_AP85441_CM010692.1
+3	soff_lappurple	SOFF_LAPPURPLE_CM036175.1
+4	soff_lappurple	SOFF_LAPPURPLE_CM036176.1
+4	sspo_ap85441	SSPO_AP85441_CM010695.1
+4	soff_lappurple	SOFF_LAPPURPLE_CM036180.1
+4	sspo_npx	SSPO_NPX_CM039593.1
+4	soff_lappurple	SOFF_LAPPURPLE_CM036181.1
+4	sspo_npx	SSPO_NPX_CM039591.1
+4	sspo_npx	SSPO_NPX_CM039592.1
+4	soff_lappurple	SOFF_LAPPURPLE_CM036178.1
+4	soff_lappurple	SOFF_LAPPURPLE_CM036182.1
+4	sspo_ap85441	SSPO_AP85441_CM010698.1
+4	sspo_ap85441	SSPO_AP85441_CM010696.1
+4	soff_lappurple	SOFF_LAPPURPLE_CM036179.1
+4	sspo_npx	SSPO_NPX_CM039594.1
+4	soff_lappurple	SOFF_LAPPURPLE_CM036183.1
+4	sspo_ap85441	SSPO_AP85441_CM010697.1
+4	soff_lappurple	SOFF_LAPPURPLE_CM036177.1
+5	sspo_ap85441	SSPO_AP85441_CM010700.1
+5	sspo_npx	SSPO_NPX_CM039597.1
+5	sspo_npx	SSPO_NPX_CM039595.1
+5	sspo_npx	SSPO_NPX_CM039598.1
+5	soff_lappurple	SOFF_LAPPURPLE_CM036188.1
+5	soff_lappurple	SOFF_LAPPURPLE_CM036186.1
+5	sspo_npx	SSPO_NPX_CM039596.1
+5	soff_lappurple	SOFF_LAPPURPLE_CM036190.1
+5	sspo_ap85441	SSPO_AP85441_CM010701.1
+5	soff_lappurple	SOFF_LAPPURPLE_CM036184.1
+5	sspo_ap85441	SSPO_AP85441_CM010699.1
+5	soff_lappurple	SOFF_LAPPURPLE_CM036189.1
+5	soff_lappurple	SOFF_LAPPURPLE_CM036185.1
+5	soff_lappurple	SOFF_LAPPURPLE_CM036191.1
+5	soff_lappurple	SOFF_LAPPURPLE_CM036187.1
+6	sspo_ap85441	SSPO_AP85441_CM010700.1
+6	soff_lappurple	SOFF_LAPPURPLE_CM036197.1
+6	soff_lappurple	SOFF_LAPPURPLE_CM036196.1
+6	sspo_npx	SSPO_NPX_CM039597.1
+6	soff_lappurple	SOFF_LAPPURPLE_CM036194.1
+6	sspo_npx	SSPO_NPX_CM039595.1
+6	soff_lappurple	SOFF_LAPPURPLE_CM036199.1
+6	sspo_npx	SSPO_NPX_CM039598.1
+6	sspo_npx	SSPO_NPX_CM039600.1
+6	sspo_npx	SSPO_NPX_CM039596.1
+6	sspo_npx	SSPO_NPX_CM039599.1
+6	soff_lappurple	SOFF_LAPPURPLE_CM036195.1
+6	soff_lappurple	SOFF_LAPPURPLE_CM036193.1
+6	sspo_ap85441	SSPO_AP85441_CM010701.1
+6	sspo_npx	SSPO_NPX_CM039601.1
+6	sspo_ap85441	SSPO_AP85441_CM010702.1
+6	soff_lappurple	SOFF_LAPPURPLE_CM036198.1
+6	sspo_npx	SSPO_NPX_CM039602.1
+6	sspo_ap85441	SSPO_AP85441_CM010699.1
+6	soff_lappurple	SOFF_LAPPURPLE_CM036192.1
+7	soff_lappurple	SOFF_LAPPURPLE_CM036201.1
+7	sspo_npx	SSPO_NPX_CM039604.1
+7	sspo_ap85441	SSPO_AP85441_CM010703.1
+7	soff_lappurple	SOFF_LAPPURPLE_CM036206.1
+7	soff_lappurple	SOFF_LAPPURPLE_CM036200.1
+7	soff_lappurple	SOFF_LAPPURPLE_CM036207.1
+7	sspo_npx	SSPO_NPX_CM039605.1
+7	sspo_npx	SSPO_NPX_CM039603.1
+7	sspo_ap85441	SSPO_AP85441_CM010704.1
+7	sspo_ap85441	SSPO_AP85441_CM010706.1
+7	soff_lappurple	SOFF_LAPPURPLE_CM036203.1
+7	sspo_ap85441	SSPO_AP85441_CM010705.1
+7	soff_lappurple	SOFF_LAPPURPLE_CM036205.1
+7	sspo_npx	SSPO_NPX_CM039606.1
+7	soff_lappurple	SOFF_LAPPURPLE_CM036202.1
+7	soff_lappurple	SOFF_LAPPURPLE_CM036204.1
+8	sspo_npx	SSPO_NPX_CM039609.1
+8	soff_lappurple	SOFF_LAPPURPLE_CM036208.1
+8	sspo_npx	SSPO_NPX_CM039610.1
+8	soff_lappurple	SOFF_LAPPURPLE_CM036212.1
+8	sspo_npx	SSPO_NPX_CM039608.1
+8	sspo_npx	SSPO_NPX_CM039607.1
+8	soff_lappurple	SOFF_LAPPURPLE_CM036209.1
+8	soff_lappurple	SOFF_LAPPURPLE_CM036210.1
+8	soff_lappurple	SOFF_LAPPURPLE_CM036213.1
+8	soff_lappurple	SOFF_LAPPURPLE_CM036214.1
+8	soff_lappurple	SOFF_LAPPURPLE_CM036215.1
+8	soff_lappurple	SOFF_LAPPURPLE_CM036211.1
+9	soff_lappurple	SOFF_LAPPURPLE_CM036219.1
+9	soff_lappurple	SOFF_LAPPURPLE_CM036223.1
+9	soff_lappurple	SOFF_LAPPURPLE_CM036222.1
+9	soff_lappurple	SOFF_LAPPURPLE_CM036221.1
+9	sspo_ap85441	SSPO_AP85441_CM010707.1
+9	sspo_npx	SSPO_NPX_CM039613.1
+9	soff_lappurple	SOFF_LAPPURPLE_CM036217.1
+9	sspo_npx	SSPO_NPX_CM039611.1
+9	soff_lappurple	SOFF_LAPPURPLE_CM036220.1
+9	sspo_ap85441	SSPO_AP85441_CM010710.1
+9	soff_lappurple	SOFF_LAPPURPLE_CM036218.1
+9	sspo_ap85441	SSPO_AP85441_CM010709.1
+9	soff_lappurple	SOFF_LAPPURPLE_CM036216.1
+9	sspo_npx	SSPO_NPX_CM039614.1
+9	sspo_npx	SSPO_NPX_CM039612.1
+9	sspo_ap85441	SSPO_AP85441_CM010708.1
+10	soff_lappurple	SOFF_LAPPURPLE_CM036229.1
+10	soff_lappurple	SOFF_LAPPURPLE_CM036231.1
+10	sspo_ap85441	SSPO_AP85441_CM010713.1
+10	sspo_ap85441	SSPO_AP85441_CM010712.1
+10	sspo_npx	SSPO_NPX_CM039615.1
+10	sspo_npx	SSPO_NPX_CM039616.1
+10	soff_lappurple	SOFF_LAPPURPLE_CM036224.1
+10	sspo_ap85441	SSPO_AP85441_CM010711.1
+10	sspo_npx	SSPO_NPX_CM039618.1
+10	soff_lappurple	SOFF_LAPPURPLE_CM036225.1
+10	sspo_ap85441	SSPO_AP85441_CM010714.1
+10	soff_lappurple	SOFF_LAPPURPLE_CM036230.1
+10	sspo_npx	SSPO_NPX_CM039617.1
+10	soff_lappurple	SOFF_LAPPURPLE_CM036228.1
+10	soff_lappurple	SOFF_LAPPURPLE_CM036226.1
+10	soff_lappurple	SOFF_LAPPURPLE_CM036227.1

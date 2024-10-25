@@ -18,6 +18,7 @@ Doyle, J.J. and J.L. Doyle. 1987. A rapid DNA isolation procedure from small qua
 #### Library preparation
 
 | **Library A** | |
+| ---- | ---- |
 | DNA Shearing	| Megaruptor 3  with Speed Code 29 & 30 - combined |
 | AMPure Beads Selection | > 5Kb |
 | DNA Input |10 ug; library prep : 2 rxns |

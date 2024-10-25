@@ -38,7 +38,8 @@ Doyle, J.J. and J.L. Doyle. 1987. A rapid DNA isolation procedure from small qua
 | Size Selection | Sage Sciences; Pippin HT; Definition: 9-30kb, R+T, 75E (13kb cut off, 30min elution) |
 | Library QC | DNA quantification: Qubit (Qubit fluorometer & Qubit 1X dsDNA HS assay kit - 1.858 ug recovered);  DNA sizing: Femto Pulse system (Femto Pulse gDNA 165kb analysis kit - 21.6kb Ave size) |
 
-| Sample Name | CCS Reads |  CCS Yield (Gb) | Mean Length | N50 | Mean QV | Date delivered | Sequnecing instrument |
+| Sample Name | CCS Reads |  CCS Yield (Gb) | Mean Length | N50 | Mean QV | Date delivered | Sequencing instrument |
+| --- | --- | --- | --- | --- | --- | --- | --- |
 | Saccharum hybrid-SP80-3280_80pM_01 | 1581718 | 30.3 | 19156 | 19043 | Q32 | 27/10/2022 | Sequel IIe |
 | Saccharum hybrid-SP80-3280_80pM_03 | 1699007 | 32.6 |  | 19052 | | 31/10/2022 | Sequel IIe |
 | Saccharum hybrid-SP80-3280_70pM_04 | 1638846 | 31.3 |  | 19009 | | 31/10/2022 | Sequel IIe |

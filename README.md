@@ -23,7 +23,7 @@ Doyle, J.J. and J.L. Doyle. 1987. A rapid DNA isolation procedure from small qua
 | AMPure Beads Selection | > 5Kb |
 | DNA Input |10 ug; library prep : 2 rxns |
 | Library Prep Kit |SMRTbell Prep Kit 3.0 |
-| Protocol |https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:20db5dcd-096c-3c92-827d-9d88b1db4326 |
+| Protocol |https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:20db5dcd-096c-3c92-827d-9d88b1db4326 or [here](Procedure-checklist-Preparing-whole-genome-and-metagenome-libraries-using-SMRTbell-prep-kit-3.0.pdf) |
 | Size Selection |Sage Sciences; Pippin HT; Definition: 9-30kb, R+T, 75E (15kb cut off, 30min elution) | 
 | | Error on the selection procedure;  Just 718 ng of final library recovered |
 | Library QC |DNA quantification: Qubit (Qubit fluorometer & Qubit 1X dsDNA HS assay kit - 718 ng recovered);  DNA sizing: Femto Pulse system (Femto Pulse gDNA 165kb analysis kit - 19.9kb Ave size ) | 
@@ -34,7 +34,7 @@ Doyle, J.J. and J.L. Doyle. 1987. A rapid DNA isolation procedure from small qua
 | DNA Shearing | Megarupter  with Speed Code 29 & 30 - combined |
 | DNA Input | 13.5 ug; library prep : 3 rxns |
 | Library Prep Kit | SMRTbell Prep Kit 3.0 |
-| Protocol | https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:20db5dcd-096c-3c92-827d-9d88b1db4326 |
+| Protocol | https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:20db5dcd-096c-3c92-827d-9d88b1db4326 or [here](Procedure-checklist-Preparing-whole-genome-and-metagenome-libraries-using-SMRTbell-prep-kit-3.0.pdf) |
 | Size Selection | Sage Sciences; Pippin HT; Definition: 9-30kb, R+T, 75E (13kb cut off, 30min elution) |
 | Library QC | DNA quantification: Qubit (Qubit fluorometer & Qubit 1X dsDNA HS assay kit - 1.858 ug recovered);  DNA sizing: Femto Pulse system (Femto Pulse gDNA 165kb analysis kit - 21.6kb Ave size) |
 

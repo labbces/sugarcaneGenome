@@ -4,6 +4,50 @@
 
 ### PacBio HiFi
 
+Young plants of the sugarcane cultivar SP80-3280 were grown in a greenhouse at CENA/USP for approximately four weeks. Before leaf collection, the plants were subjected to a 36-hour dark treatment. Following this, all leaves were harvested, cut into small fragments, stored in aluminum pouches, flash-frozen in liquid nitrogen, and subsequently stored at -80 °C. Approximately 9 grams of leaf fragments were sent to the Arizona Genomics Institute for sequencing on October 2022, utilizing PacBio HiFi chemistry on a Sequel II instrument.
+
+#### DNA extraction protocol
+
+CTAB HMW DNA extraction
+
+
+High molecular weight DNA was extracted from young leaves using the protocol of Doyle and Doyle (1987) with minor modifications. Flash-frozen young leaves were ground to a fine powder in a frozen mortar with liquid nitrogen followed by very gentle extraction in 2% CTAB buffer (that included proteinase K, PVP-40 and beta-mercaptoethanol) for 1 h at 50 °C. After centrifugation, the supernatant was gently extracted twice with 24:1 chloroform:isoamyl alcohol. The upper phase was adjusted to 1/10th volume with 3 M NaAc, gently mixed, and DNA precipitated with iso-propanol. DNA was collected by centrifugation, washed with 70% ethanol, air dried for 20 minutes and dissolved thoroughly in 1x TE at room temperature. DNA purity was measured with Nanodrop, DNA concentration measured with Qubit HS kit (Invitrogen) and DNA size was validated by Femto Pulse System (Agilent).
+
+Doyle, J.J. and J.L. Doyle. 1987. A rapid DNA isolation procedure from small quantities of fresh leaf tissues. Phytochem Bull. 19:11–15.
+
+#### Library preparation
+
+| **Library A** | |
+| DNA Shearing	| Megaruptor 3  with Speed Code 29 & 30 - combined |
+| AMPure Beads Selection | > 5Kb |
+| DNA Input |10 ug; library prep : 2 rxns |
+| Library Prep Kit |SMRTbell Prep Kit 3.0 |
+| Protocol |https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:20db5dcd-096c-3c92-827d-9d88b1db4326 |
+| Size Selection |Sage Sciences; Pippin HT; Definition: 9-30kb, R+T, 75E (15kb cut off, 30min elution) | 
+| | Error on the selection procedure;  Just 718 ng of final library recovered |
+| Library QC |DNA quantification: Qubit (Qubit fluorometer & Qubit 1X dsDNA HS assay kit - 718 ng recovered);  DNA sizing: Femto Pulse system (Femto Pulse gDNA 165kb analysis kit - 19.9kb Ave size ) | 
+
+	
+| **Library B** | | 
+| DNA Shearing | Megarupter  with Speed Code 29 & 30 - combined |
+| DNA Input | 13.5 ug; library prep : 3 rxns |
+| Library Prep Kit | SMRTbell Prep Kit 3.0 |
+| Protocol | https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:20db5dcd-096c-3c92-827d-9d88b1db4326 |
+| Size Selection | Sage Sciences; Pippin HT; Definition: 9-30kb, R+T, 75E (13kb cut off, 30min elution) |
+| Library QC | DNA quantification: Qubit (Qubit fluorometer & Qubit 1X dsDNA HS assay kit - 1.858 ug recovered);  DNA sizing: Femto Pulse system (Femto Pulse gDNA 165kb analysis kit - 21.6kb Ave size) |
+
+| Sample Name | CCS Reads |  CCS Yield (Gb) | Mean Length | Mean QV |
+| ----- | ----- | ----- | ----- | ----- |
+| Saccharum hybrid-SP80-3280_80pM_01 | 1581718 | 30.3 | 19156 | Q32 |
+| Saccharum hybrid-SP80-3280_80pM_04 | 1469380 | 26.6 | 18095 | Q33 |
+| Saccharum hybrid-SP80-3280_80pM_05 | 1566401 | 28.4 | 18126 | Q32 |
+| Saccharum hybrid-SP80-3280_80pM_06 | 1573798 | 28.5 | 18097 | Q32 |
+| Saccharum hybrid-SP80-3280_80pM_07 | 1521580 | 27.6 | 18150 | Q32 |
+| Saccharum hybrid-SP80-3280_80pM_08 | 1565600 | 28.3 | 18100 | Q32 |
+| Saccharum hybrid-SP80-3280_80pM_09 | 1419570 | 25.7 | 18116 | Q32 |
+| Saccharum hybrid-SP80-3280_80pM_10 | 1458313 | 26.4 | 18105 | Q32 |
+| Saccharum hybrid-SP80-3280_80pM_11 | 1469516 | 26.6 | 18131 | Q30 |
+
 ### HiC
 
 ## Chromosome comparisons of parental species

@@ -59,9 +59,9 @@ Restriction enzymes used
 | Enzyme | Web page | Cleavage site |
 | --- | --- | --- |
 | DPNII | https://international.neb.com/products/r0543-dpnii | ![DPNII](Figs/dpnii.svg)|
-| DDEI  | https://international.neb.com/products/r0175-ddel  | |
-| HINFI | https://international.neb.com/products/r0155-hinfi | |
-| MSEI  | https://international.neb.com/products/r0525-msei  | |
+| DDEI  | https://international.neb.com/products/r0175-ddel  | ![DDEI](Figs/ddei.svg) |
+| HINFI | https://international.neb.com/products/r0155-hinfi | ![DDEI](Figs/hinfi.svg) |
+| MSEI  | https://international.neb.com/products/r0525-msei  | ![DDEI](Figs/msei.svg) |
 
 ## Chromosome comparisons of parental species
 

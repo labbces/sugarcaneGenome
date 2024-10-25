@@ -38,19 +38,29 @@ Doyle, J.J. and J.L. Doyle. 1987. A rapid DNA isolation procedure from small qua
 | Size Selection | Sage Sciences; Pippin HT; Definition: 9-30kb, R+T, 75E (13kb cut off, 30min elution) |
 | Library QC | DNA quantification: Qubit (Qubit fluorometer & Qubit 1X dsDNA HS assay kit - 1.858 ug recovered);  DNA sizing: Femto Pulse system (Femto Pulse gDNA 165kb analysis kit - 21.6kb Ave size) |
 
-| Sample Name | CCS Reads |  CCS Yield (Gb) | Mean Length | Mean QV |
-| ----- | ----- | ----- | ----- | ----- |
-| Saccharum hybrid-SP80-3280_80pM_01 | 1581718 | 30.3 | 19156 | Q32 |
-| Saccharum hybrid-SP80-3280_80pM_04 | 1469380 | 26.6 | 18095 | Q33 |
-| Saccharum hybrid-SP80-3280_80pM_05 | 1566401 | 28.4 | 18126 | Q32 |
-| Saccharum hybrid-SP80-3280_80pM_06 | 1573798 | 28.5 | 18097 | Q32 |
-| Saccharum hybrid-SP80-3280_80pM_07 | 1521580 | 27.6 | 18150 | Q32 |
-| Saccharum hybrid-SP80-3280_80pM_08 | 1565600 | 28.3 | 18100 | Q32 |
-| Saccharum hybrid-SP80-3280_80pM_09 | 1419570 | 25.7 | 18116 | Q32 |
-| Saccharum hybrid-SP80-3280_80pM_10 | 1458313 | 26.4 | 18105 | Q32 |
-| Saccharum hybrid-SP80-3280_80pM_11 | 1469516 | 26.6 | 18131 | Q30 |
+| Sample Name | CCS Reads |  CCS Yield (Gb) | Mean Length | N50 | Mean QV | Date delivered | Sequnecing instrument |
+| Saccharum hybrid-SP80-3280_80pM_01 | 1581718 | 30.3 | 19156 | 19043 | Q32 | 27/10/2022 | Sequel IIe |
+| Saccharum hybrid-SP80-3280_80pM_03 | 1699007 | 32.6 |  | 19052 | | 31/10/2022 | Sequel IIe |
+| Saccharum hybrid-SP80-3280_70pM_04 | 1638846 | 31.3 |  | 19009 | | 31/10/2022 | Sequel IIe |
+| Saccharum hybrid-SP80-3280_80pM_04 | 1469380 | 26.6 | 18095 | 18278 | Q33 | 10/01/2023 | Sequel II |
+| Saccharum hybrid-SP80-3280_80pM_05 | 1566401 | 28.4 | 18126 | 18299 | Q32 | 10/01/2023 | Sequel II |
+| Saccharum hybrid-SP80-3280_80pM_06 | 1573798 | 28.5 | 18097 | 18286 | Q32 | 10/01/2023 | Sequel II |
+| Saccharum hybrid-SP80-3280_80pM_07 | 1521580 | 27.6 | 18150 | 18341 | Q32 | 10/01/2023 | Sequel II |
+| Saccharum hybrid-SP80-3280_80pM_08 | 1565600 | 28.3 | 18100 | 18301 | Q32 | 10/01/2023 | Sequel II |
+| Saccharum hybrid-SP80-3280_80pM_09 | 1419570 | 25.7 | 18116 | 18318 | Q32 | 10/01/2023 | Sequel II |
+| Saccharum hybrid-SP80-3280_80pM_10 | 1458313 | 26.4 | 18105 | 18323 | Q32 | 10/01/2023 | Sequel II |
+| Saccharum hybrid-SP80-3280_80pM_11 | 1469516 | 26.6 | 18131 | 18354 | Q30 | 10/01/2023 | Sequel II |
 
 ### HiC
+
+Restriction enzymes used
+
+| Enzyme | Web page | Cleavage site |
+| --- | --- | --- |
+| DPNII | https://international.neb.com/products/r0543-dpnii | |
+| DDEI  | https://international.neb.com/products/r0175-ddel  | |
+| HINFI | https://international.neb.com/products/r0155-hinfi | |
+| MSEI  | https://international.neb.com/products/r0525-msei  | |
 
 ## Chromosome comparisons of parental species
 

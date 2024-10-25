@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
-   sodipodi:docname="chromosomesSaccharum.svg"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   sodipodi:docname="chromosomesGraphSaccharum.svg"
    id="svg15121"
    viewBox="0 0 1402 717"
    height="717px"
    width="1402px"
    y="0px"
    x="0px"
-   version="1.1">
+   version="1.1"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <metadata
      id="metadata15127">
     <rdf:RDF>
@@ -32,14 +32,14 @@
   <sodipodi:namedview
      inkscape:current-layer="svg15121"
      inkscape:window-maximized="1"
-     inkscape:window-y="-8"
-     inkscape:window-x="-8"
-     inkscape:cy="146.94537"
-     inkscape:cx="627.88862"
-     inkscape:zoom="0.62792293"
+     inkscape:window-y="27"
+     inkscape:window-x="0"
+     inkscape:cy="266.88675"
+     inkscape:cx="993.22409"
+     inkscape:zoom="0.44400856"
      showgrid="false"
      id="namedview15123"
-     inkscape:window-height="1027"
+     inkscape:window-height="966"
      inkscape:window-width="1920"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0"
@@ -48,7 +48,8 @@
      objecttolerance="10"
      borderopacity="1"
      bordercolor="#666666"
-     pagecolor="#ffffff" />
+     pagecolor="#ffffff"
+     inkscape:pagecheckerboard="0" />
   <title
      id="title19" />
   <desc
@@ -43462,4 +43463,285 @@
        id="tspan22709"
        x="39.413708"
        y="117.11483">Chr5 and Chr06</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:19.0641px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.476602"
+     x="1201.9539"
+     y="515.35773"
+     id="text15999"><tspan
+       sodipodi:role="line"
+       id="tspan15997"
+       x="1201.9539"
+       y="515.35773"
+       style="stroke-width:0.476602">Original Chr names</tspan></text>
+  <g
+     transform="matrix(0.23972763,0,0,0.23972763,1611.828,511.38308)"
+     id="g16381"
+     style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+    <g
+       fill="#d9f0a3"
+       fill-rule="nonzero"
+       fill-opacity="1"
+       stroke="none"
+       id="g16379">
+      <path
+         d="m -1281.9935,252.45956 c 0,9.66499 -7.835,17.5 -17.5,17.5 -9.665,0 -17.5,-7.83501 -17.5,-17.5 0,-9.66498 7.835,-17.5 17.5,-17.5 9.665,0 17.5,7.83502 17.5,17.5 z"
+         id="path16377" />
+    </g>
+    <!-- drawing style -->
+  </g>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:13.3333px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.476602"
+     x="1310.8864"
+     y="576.87531"
+     id="text16385"><tspan
+       sodipodi:role="line"
+       id="tspan16383"
+       x="1310.8864"
+       y="576.87531"
+       style="font-size:13.3333px;stroke-width:0.476602">Chr 08</tspan></text>
+  <g
+     transform="matrix(0.23972763,0,0,0.23972763,672.24446,533.73176)"
+     id="g17657"
+     style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+    <g
+       fill="#88419d"
+       fill-rule="nonzero"
+       fill-opacity="1"
+       stroke="none"
+       id="g17655">
+      <path
+         d="m 2288.8335,232.01762 c 0,9.66499 -7.835,17.5 -17.5,17.5 -9.665,0 -17.5,-7.83501 -17.5,-17.5 0,-9.66498 7.835,-17.5 17.5,-17.5 9.665,0 17.5,7.83502 17.5,17.5 z"
+         id="path17653" />
+    </g>
+    <!-- drawing style -->
+  </g>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:13.3333px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.476602"
+     x="1227.2769"
+     y="594.32349"
+     id="text17661"><tspan
+       sodipodi:role="line"
+       id="tspan17659"
+       x="1227.2769"
+       y="594.32349"
+       style="font-size:13.3333px;stroke-width:0.476602">Chr 04</tspan></text>
+  <g
+     transform="matrix(0.23972763,0,0,0.23972763,597.77147,702.51497)"
+     id="g20067"
+     style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+    <g
+       fill="#ae017e"
+       fill-rule="nonzero"
+       fill-opacity="1"
+       stroke="none"
+       id="g20065">
+      <path
+         d="m 2599.4902,-544.82812 c 0,9.66498 -7.835,17.5 -17.5,17.5 -9.6649,0 -17.5,-7.83502 -17.5,-17.5 0,-9.66499 7.8351,-17.5 17.5,-17.5 9.665,0 17.5,7.83501 17.5,17.5 z"
+         id="path20063" />
+    </g>
+    <!-- drawing style -->
+  </g>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:13.3333px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.476602"
+     x="1227.2769"
+     y="576.87531"
+     id="text20071"><tspan
+       sodipodi:role="line"
+       id="tspan20069"
+       x="1227.2769"
+       y="576.87531"
+       style="font-size:13.3333px;stroke-width:0.476602">Chr 03</tspan></text>
+  <g
+     transform="matrix(0.23972763,0,0,0.23972763,1066.0121,779.01167)"
+     id="g28428"
+     style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+    <g
+       fill="#c994c7"
+       fill-rule="nonzero"
+       fill-opacity="1"
+       stroke="none"
+       id="g28426">
+      <path
+         d="m 994.82343,-938.20496 c 0,9.66499 -7.83502,17.5 -17.5,17.5 -9.66499,0 -17.5,-7.83501 -17.5,-17.5 0,-9.66498 7.83501,-17.5 17.5,-17.5 9.66498,0 17.5,7.83502 17.5,17.5 z"
+         id="path28424" />
+    </g>
+    <!-- drawing style -->
+  </g>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:13.3333px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.476602"
+     x="1310.8864"
+     y="559.06873"
+     id="text36022"><tspan
+       sodipodi:role="line"
+       id="tspan36020"
+       x="1310.8864"
+       y="559.06873"
+       style="font-size:13.3333px;stroke-width:0.476602">Chr 07</tspan></text>
+  <g
+     transform="matrix(0.23972763,0,0,0.23972763,977.4203,702.72664)"
+     id="g36850"
+     style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+    <g
+       fill="#525252"
+       fill-rule="nonzero"
+       fill-opacity="1"
+       stroke="none"
+       id="g36848">
+      <path
+         d="m 1364.3752,-691.27832 c 0,9.66498 -7.835,17.5 -17.5,17.5 -9.6649,0 -17.5,-7.83502 -17.5,-17.5 0,-9.66498 7.8351,-17.5 17.5,-17.5 9.665,0 17.5,7.83502 17.5,17.5 z"
+         id="path36846" />
+    </g>
+    <!-- drawing style -->
+  </g>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:13.3333px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.476602"
+     x="1310.8864"
+     y="541.97882"
+     id="text36854"><tspan
+       sodipodi:role="line"
+       id="tspan36852"
+       x="1310.8864"
+       y="541.97882"
+       style="font-size:13.3333px;stroke-width:0.476602">Chr 06</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:13.3333px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.476602"
+     x="1310.8864"
+     y="594.32349"
+     id="text37320"><tspan
+       sodipodi:role="line"
+       id="tspan37318"
+       x="1310.8864"
+       y="594.32349"
+       style="font-size:13.3333px;stroke-width:0.476602">Chr 09</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:13.3333px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.476602"
+     x="1310.8864"
+     y="611.77173"
+     id="text37324"><tspan
+       sodipodi:role="line"
+       id="tspan37322"
+       x="1310.8864"
+       y="611.77173"
+       style="font-size:13.3333px;stroke-width:0.476602">Chr 10</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:13.3333px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.476602"
+     x="1227.2769"
+     y="541.97882"
+     id="text38288"><tspan
+       sodipodi:role="line"
+       id="tspan38286"
+       x="1227.2769"
+       y="541.97882"
+       style="font-size:13.3333px;stroke-width:0.476602">Chr 01</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:13.3333px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.476602"
+     x="1227.2769"
+     y="559.42706"
+     id="text38292"><tspan
+       sodipodi:role="line"
+       id="tspan38290"
+       x="1227.2769"
+       y="559.42706"
+       style="font-size:13.3333px;stroke-width:0.476602">Chr 02</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:13.3333px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.476602"
+     x="1227.2769"
+     y="611.77173"
+     id="text38296"><tspan
+       sodipodi:role="line"
+       id="tspan38294"
+       x="1227.2769"
+       y="611.77173"
+       style="font-size:13.3333px;stroke-width:0.476602">Chr 05</tspan></text>
+  <g
+     transform="matrix(0.23972763,0,0,0.23972763,1241.6954,753.82863)"
+     id="g47367"
+     style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+    <g
+       fill="#41ab5d"
+       fill-rule="nonzero"
+       fill-opacity="1"
+       stroke="none"
+       id="g47365">
+      <path
+         d="m -86.574379,-904.44519 c 0,9.66498 -7.835017,17.5 -17.500001,17.5 -9.66498,0 -17.5,-7.83502 -17.5,-17.5 0,-9.66498 7.83502,-17.5 17.5,-17.5 9.664984,0 17.500001,7.83502 17.500001,17.5 z"
+         id="path47363" />
+    </g>
+    <!-- drawing style -->
+  </g>
+  <g
+     transform="matrix(0.23972763,0,0,0.23972763,1227.0423,464.80158)"
+     id="g47373"
+     style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+    <g
+       fill="#2b8cbe"
+       fill-rule="nonzero"
+       fill-opacity="1"
+       stroke="none"
+       id="g47371">
+      <path
+         d="m -25.450718,369.96375 c 0,9.66498 -7.835017,17.5 -17.5,17.5 -9.664983,0 -17.5,-7.83502 -17.5,-17.5 0,-9.66499 7.835017,-17.5 17.5,-17.5 9.664983,0 17.5,7.83501 17.5,17.5 z"
+         id="path47369" />
+    </g>
+    <!-- drawing style -->
+  </g>
+  <g
+     transform="matrix(0.23972763,0,0,0.23972763,1520.0959,826.19548)"
+     id="g47379"
+     style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+    <g
+       fill="#cc4c02"
+       fill-rule="nonzero"
+       fill-opacity="1"
+       stroke="none"
+       id="g47377">
+      <path
+         d="m -1247.8944,-915.18213 c 0,9.66498 -7.835,17.5 -17.5,17.5 -9.665,0 -17.5,-7.83502 -17.5,-17.5 0,-9.66498 7.835,-17.5 17.5,-17.5 9.665,0 17.5,7.83502 17.5,17.5 z"
+         id="path47375" />
+    </g>
+    <!-- drawing style -->
+  </g>
+  <g
+     transform="matrix(0.23972763,0,0,0.23972763,1019.919,465.92655)"
+     id="g47385"
+     style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+    <g
+       fill="#99000d"
+       fill-rule="nonzero"
+       fill-opacity="1"
+       stroke="none"
+       id="g47383">
+      <path
+         d="m 1187.0963,514.86034 c 0,9.66499 -7.835,17.50001 -17.5,17.50001 -9.665,0 -17.5,-7.83502 -17.5,-17.50001 0,-9.665 7.835,-17.50002 17.5,-17.50002 9.665,0 17.5,7.83502 17.5,17.50002 z"
+         id="path47381" />
+    </g>
+    <!-- drawing style -->
+  </g>
+  <g
+     transform="matrix(0.23972763,0,0,0.23972763,1591.0414,441.77837)"
+     id="g47391"
+     style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+    <g
+       fill="#99d8c9"
+       fill-rule="nonzero"
+       fill-opacity="1"
+       stroke="none"
+       id="g47389">
+      <path
+         d="m -1195.2844,688.37567 c 0,9.66498 -7.835,17.5 -17.5,17.5 -9.665,0 -17.5,-7.83502 -17.5,-17.5 0,-9.66498 7.835,-17.5 17.5,-17.5 9.665,0 17.5,7.83502 17.5,17.5 z"
+         id="path47387" />
+    </g>
+    <!-- drawing style -->
+  </g>
 </svg>

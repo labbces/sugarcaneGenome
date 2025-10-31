@@ -63,6 +63,18 @@ Restriction enzymes used
 | HINFI | https://international.neb.com/products/r0155-hinfi | ![DDEI](Figs/hinfi.svg) |
 | MSEI  | https://international.neb.com/products/r0525-msei  | ![DDEI](Figs/msei.svg) |
 
+### Nanopore data
+
+In collaboration with the group of [Dr. Maria Imaculada Zucchi](https://www.genomicadaconservacao.com.br/equipe) (Dr. Caroline B. Garcia and Dr. Matheus Scaketti) we generated some Nanopore reads, with the main aim to get ultralong reads. This was for the same cultivar SP80-3280 that we maintain at CENA/USP.
+
+Three datasets were generated and delivered in October 2025.
+
+| Sample Name | Number Reads |  Yield (bp) | N50 | N25 | Date delivered | Sequencing instrument | Figure |
+| --- | --- | --- | --- | --- | --- | --- | -- | 
+| cana_ont1 | 147842 | 697428086 | 15628 | 36215 | 28/10/2025 | P2 Solo | [SeqStats](Figs/cana_ont1.seqStats_seqStats.png) |
+| cana_ont2 | 4682701 | 27670943957 | 18646 | 38326 | 28/10/2025 | P2 Solo | [SeqStats](Figs/cana_ont2.seqStats_seqStats.png) |
+| cana_ont3 |  |  |  |  | 28/10/2025 | P2 Solo | [SeqStats](Figs/cana_ont2.seqStats_seqStats.png) |
+
 ## Chromosome comparisons of parental species
 
 We are comparing _S. officinarum_ LA-Purple with a basic number of chromosomes of 10,  each with 8 copies, so x=10, 2n=80, _S. spontaneum_ AP85-441 x=8, 2n=32, and _S. spontaneum_ NpX with x=10, 2n=40.

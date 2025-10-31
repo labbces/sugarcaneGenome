@@ -73,7 +73,7 @@ Three datasets were generated and delivered in October 2025.
 | --- | --- | --- | --- | --- | --- | --- | -- | 
 | cana_ont1 | 147842 | 697428086 | 15628 | 36215 | 28/10/2025 | P2 Solo | [SeqStats](Figs/cana_ont1.seqStats_seqStats.png) |
 | cana_ont2 | 4682701 | 27670943957 | 18646 | 38326 | 28/10/2025 | P2 Solo | [SeqStats](Figs/cana_ont2.seqStats_seqStats.png) |
-| cana_ont3 |  |  |  |  | 28/10/2025 | P2 Solo | [SeqStats](Figs/cana_ont2.seqStats_seqStats.png) |
+| cana_ont3 | 3589532 | 23972548174 | 20053 | 42769 | 28/10/2025 | P2 Solo | [SeqStats](Figs/cana_ont3.seqStats_seqStats.png) |
 
 ## Chromosome comparisons of parental species
 

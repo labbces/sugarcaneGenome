@@ -75,6 +75,13 @@ Three datasets were generated and delivered in October 2025.
 | cana_ont2 | 4682701 | 27670943957 | 18646 | 38326 | 28/10/2025 | P2 Solo | [SeqStats](Figs/cana_ont2.seqStats_seqStats.png) |
 | cana_ont3 | 3589532 | 23972548174 | 20053 | 42769 | 28/10/2025 | P2 Solo | [SeqStats](Figs/cana_ont3.seqStats_seqStats.png) |
 
+I filtered the data using [chopper v0.12.0b](getSetStatsONTfiltered.sh.o6401), I generated two subsets of the reads, those larger than 5kbp and larger than 20kbp, with a minimum phred score of 10. This are the metrics for these two subsets:
+
+| Sample Name | Number Reads |  Yield (bp) | N90 | N50 | N25 | Date filtered | Sequencing instrument | Figure |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+|  filtered_ont_gt5kb | | | | | | 04/11/2025 | P2 Solo | [SeqStats](Figs/filtered_ont_gt5k_seqStats.png) |
+| filtered_ont_gt20kb | 642,764 | 24924346848 | 23151 | 40955 | 62413 | 04/11/2025 | P2 Solo | [SeqStats](Figs/filtered_ont_gt20k_seqStats.png) |
+
 ## Chromosome comparisons of parental species
 
 We are comparing _S. officinarum_ LA-Purple with a basic number of chromosomes of 10,  each with 8 copies, so x=10, 2n=80, _S. spontaneum_ AP85-441 x=8, 2n=32, and _S. spontaneum_ NpX with x=10, 2n=40.

@@ -79,7 +79,7 @@ I filtered the data using [chopper v0.12.0b](getSetStatsONTfiltered.sh.o6401), I
 
 | Sample Name | Number Reads |  Yield (bp) | N90 | N50 | N25 | Date filtered | Sequencing instrument | Figure |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-|  filtered_ont_gt5kb | | | | | | 04/11/2025 | P2 Solo | [SeqStats](Figs/filtered_ont_gt5k_seqStats.png) |
+|  filtered_ont_gt5kb | 2301657 | 41385462091 | 7713 | 25577 | 46710 | 04/11/2025 | P2 Solo | [SeqStats](Figs/filtered_ont_gt5k_seqStats.png) |
 | filtered_ont_gt20kb | 642,764 | 24924346848 | 23151 | 40955 | 62413 | 04/11/2025 | P2 Solo | [SeqStats](Figs/filtered_ont_gt20k_seqStats.png) |
 
 ## Chromosome comparisons of parental species

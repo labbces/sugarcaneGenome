@@ -2,3 +2,6 @@ paffiles/
 settings.json
 chrfiles
 asynt
+*.csv
+*.tsv
+*.out
